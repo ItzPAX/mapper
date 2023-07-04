@@ -1,0 +1,30 @@
+﻿  Building 'nigmapper' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\nigmapper.inf
+  Stamping [Version] section with DriverVer=06/21/2023,18.36.35.640
+  nigmapper.vcxproj -> D:\MyProgramming\Kernel\nigmapper\x64\Debug\nigmapper.sys
+  Driver is 'Universal'.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\MyProgramming\Kernel\nigmapper\x64\Debug\nigmapper\nigmapper.cat
+  Done Adding Additional Store
+  Successfully signed: D:\MyProgramming\Kernel\nigmapper\x64\Debug\nigmapper\nigmapper.cat
+  
+          1 Datei(en) kopiert.
+  Done Adding Additional Store
+  Successfully signed: nigmapper_Debug.sys
+  
+  Der angeforderte Dienst wurde bereits gestartet.
+  
+  Sie erhalten weitere Hilfe, wenn Sie NET HELPMSG 2182 eingeben.
+  
+  Der Befehl wurde erfolgreich ausgeführt.
+  Befehl zum erneuten Synchronisieren wird an den lokalen Computer gesendet.
+  Der Computer wurde nicht synchronisiert, da keine Zeitdaten verfügbar waren.

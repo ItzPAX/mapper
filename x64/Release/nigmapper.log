@@ -1,0 +1,43 @@
+﻿  Building 'nigmapper' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\nigmapper.inf
+  Stamping [Version] section with DriverVer=07/02/2023,21.18.33.13
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(61,26): warning C4083: ")" erwartet; Bezeichner "_VCRUNTIME_DISABLED_WARNINGS" gefunden
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(111,1): warning C4005: "_CRT_STRINGIZE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,1): message : Siehe vorherige Definition von "_CRT_STRINGIZE"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(114,1): warning C4005: "_CRT_WIDE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,1): message : Siehe vorherige Definition von "_CRT_WIDE"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(155,1): warning C4005: "__CRTDECL": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,1): message : Siehe vorherige Definition von "__CRTDECL"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(16,26): warning C4083: ")" erwartet; Bezeichner "_VCRUNTIME_DISABLED_WARNINGS" gefunden
+C:\Program Files (x86)\Windows Kits\10\Include\wdf\kmdf\1.15\wdfdevice.h(498,14): warning C4471: "_WDF_REQUEST_TYPE": Für eine Vorwärtsdeklaration einer Enumeration ohne eigenen Gültigkeitsbereich ist ein zugrunde liegender Typ erforderlich.
+  mapper.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(61,26): warning C4083: ")" erwartet; Bezeichner "_VCRUNTIME_DISABLED_WARNINGS" gefunden
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(111,1): warning C4005: "_CRT_STRINGIZE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,1): message : Siehe vorherige Definition von "_CRT_STRINGIZE"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(114,1): warning C4005: "_CRT_WIDE": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,1): message : Siehe vorherige Definition von "_CRT_WIDE"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\vcruntime.h(155,1): warning C4005: "__CRTDECL": Makro-Neudefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,1): message : Siehe vorherige Definition von "__CRTDECL"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\stdint.h(16,26): warning C4083: ")" erwartet; Bezeichner "_VCRUNTIME_DISABLED_WARNINGS" gefunden
+C:\Program Files (x86)\Windows Kits\10\Include\wdf\kmdf\1.15\wdfdevice.h(498,14): warning C4471: "_WDF_REQUEST_TYPE": Für eine Vorwärtsdeklaration einer Enumeration ohne eigenen Gültigkeitsbereich ist ein zugrunde liegender Typ erforderlich.
+D:\MyProgramming\Kernel\nigmapper\nigmapper\memory.h(10,2): warning C4091: "typedef ": Ignoriert auf der linken Seite von "PiDDBCacheEntry", wenn keine Variable deklariert wurde
+  Code wird generiert...
+  nigmapper.vcxproj -> D:\MyProgramming\Kernel\nigmapper\x64\Release\nigmapper.sys
+  Done Adding Additional Store
+  Successfully signed: D:\MyProgramming\Kernel\nigmapper\x64\Release\nigmapper.sys
+  
+  Driver is 'Universal'.
+          1 Datei(en) kopiert.
+  Dem Client fehlt ein erforderliches Recht.
+EXEC : SignTool error : No certificates were found that met all the given criteria.
+  Systemfehler 5 aufgetreten.
+  
+  Zugriff verweigert
+  
+  Folgender Fehler ist aufgetreten: Zugriff verweigert (0x80070005)
+  Befehl zum erneuten Synchronisieren wird an den lokalen Computer gesendet.
+  Folgender Fehler ist aufgetreten: Zugriff verweigert (0x80070005)
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3073: Der Befehl "copy D:\MyProgramming\Kernel\nigmapper\x64\Release\nigmapper.sys D:\MyProgramming\Kernel\nigmapper\Signing\nigmapper_Release.sys
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3073: D:\MyProgramming\Kernel\nigmapper\Signing\sign.bat
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(159,5): error MSB3073: :VCEnd" wurde mit dem Code -2147024891 beendet.
