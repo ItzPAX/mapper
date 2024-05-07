@@ -1,8 +1,11 @@
-# mapper
-My first attempt at a kernel driver
+# Mapper
 
-this is supposed to be signed with a cert
-it will then map an unsigned driver into global memory
-and execute its entry point
+Manually maps an unsigned driver into the system context and executes its entry point
 
-Idea is from CosMapper, so all credits to him
+## Limitations / Issues
+
+* This mapper is still very unstable and often bluescreens
+* The mapper must be signed by a leaked EV certificate
+
+## Credits
+[CosMapper](https://github.com/armvirus/CosMapper) by armvirus
